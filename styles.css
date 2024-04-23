@@ -45,12 +45,9 @@ a {
   margin: 0 5px;
 }
 
-.project p {
-  text-align: left;
-}
-
-.project ul,
-.project ol {
+.project p,
+.project ul li,
+.project ol li {
   text-align: left;
 }
 
@@ -60,9 +57,4 @@ a {
 
 .project ol {
   margin-left: 35px
-}
-
-.project ul li,
-.project ol li {
-  text-align: left;
 }
