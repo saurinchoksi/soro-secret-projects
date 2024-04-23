@@ -1,9 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 body {
   background-color: rgb(21 184 121);
   color: white;
   font-family: "Futura", Arial, Helvetica, sans-serif;
-  text-align: center;
   font-size: 150%;
+  max-width: 1024px;
+  margin: 50px auto 50px auto;
+  padding: 25px;
+  border: solid 5px;
+}
+
+img, h1, h2, p, ul, ol {
+  margin-bottom: 20px;
 }
 
 img {
@@ -19,11 +33,10 @@ a {
 
 .home ul {
   list-style: none;
-  padding: 0;
 }
 
 .home li {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .home a::before,
@@ -34,15 +47,22 @@ a {
 
 .project p {
   text-align: left;
-  margin: 0 10%;
-}
-
-.project p + p {
-  margin-top: 20px;
 }
 
 .project ul,
 .project ol {
   text-align: left;
-  margin: 0 10%;
+}
+
+.project ul {
+  margin-left: 25px
+}
+
+.project ol {
+  margin-left: 35px
+}
+
+.project ul li,
+.project ol li {
+  text-align: left;
 }
